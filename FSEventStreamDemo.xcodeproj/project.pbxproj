@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DDB03E1F283683007A04A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB03D1F283683007A04A0 /* AppDelegate.m */; };
+		25DDB0411F283683007A04A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB0401F283683007A04A0 /* main.m */; };
+		25DDB0441F283683007A04A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DDB0431F283683007A04A0 /* ViewController.m */; };
+		25DDB0461F283683007A04A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB0451F283683007A04A0 /* Assets.xcassets */; };
+		25DDB0491F283683007A04A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DDB0471F283683007A04A0 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25DDB0391F283683007A04A0 /* FSEventStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSEventStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DDB03C1F283683007A04A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25DDB03D1F283683007A04A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25DDB0401F283683007A04A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DDB0421F283683007A04A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25DDB0431F283683007A04A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25DDB0451F283683007A04A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DDB0481F283683007A04A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25DDB04A1F283683007A04A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DDB0361F283683007A04A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DDB0301F283683007A04A0 = {
+			isa = PBXGroup;
+			children = (
+				25DDB03B1F283683007A04A0 /* FSEventStreamDemo */,
+				25DDB03A1F283683007A04A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DDB03A1F283683007A04A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB0391F283683007A04A0 /* FSEventStreamDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DDB03B1F283683007A04A0 /* FSEventStreamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB03C1F283683007A04A0 /* AppDelegate.h */,
+				25DDB03D1F283683007A04A0 /* AppDelegate.m */,
+				25DDB0421F283683007A04A0 /* ViewController.h */,
+				25DDB0431F283683007A04A0 /* ViewController.m */,
+				25DDB0451F283683007A04A0 /* Assets.xcassets */,
+				25DDB0471F283683007A04A0 /* Main.storyboard */,
+				25DDB04A1F283683007A04A0 /* Info.plist */,
+				25DDB03F1F283683007A04A0 /* Supporting Files */,
+			);
+			path = FSEventStreamDemo;
+			sourceTree = "<group>";
+		};
+		25DDB03F1F283683007A04A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DDB0401F283683007A04A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DDB0381F283683007A04A0 /* FSEventStreamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DDB04D1F283683007A04A0 /* Build configuration list for PBXNativeTarget "FSEventStreamDemo" */;
+			buildPhases = (
+				25DDB0351F283683007A04A0 /* Sources */,
+				25DDB0361F283683007A04A0 /* Frameworks */,
+				25DDB0371F283683007A04A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSEventStreamDemo;
+			productName = FSEventStreamDemo;
+			productReference = 25DDB0391F283683007A04A0 /* FSEventStreamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DDB0311F283683007A04A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yww;
+				TargetAttributes = {
+					25DDB0381F283683007A04A0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25DDB0341F283683007A04A0 /* Build configuration list for PBXProject "FSEventStreamDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25DDB0301F283683007A04A0;
+			productRefGroup = 25DDB03A1F283683007A04A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DDB0381F283683007A04A0 /* FSEventStreamDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DDB0371F283683007A04A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DDB0461F283683007A04A0 /* Assets.xcassets in Resources */,
+				25DDB0491F283683007A04A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DDB0351F283683007A04A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DDB0441F283683007A04A0 /* ViewController.m in Sources */,
+				25DDB0411F283683007A04A0 /* main.m in Sources */,
+				25DDB03E1F283683007A04A0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25DDB0471F283683007A04A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DDB0481F283683007A04A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DDB04B1F283683007A04A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25DDB04C1F283683007A04A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25DDB04E1F283683007A04A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FSEventStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yww.FSEventStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25DDB04F1F283683007A04A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FSEventStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yww.FSEventStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DDB0341F283683007A04A0 /* Build configuration list for PBXProject "FSEventStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DDB04B1F283683007A04A0 /* Debug */,
+				25DDB04C1F283683007A04A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DDB04D1F283683007A04A0 /* Build configuration list for PBXNativeTarget "FSEventStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DDB04E1F283683007A04A0 /* Debug */,
+				25DDB04F1F283683007A04A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DDB0311F283683007A04A0 /* Project object */;
+}
